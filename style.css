@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+.material-icons {
+    color: #ffffff;
+}
+li {
+    color: #0059ff;
+    font-family: "ink free", cursive;
+    font-weight: bold;
+    cursor: default;
+}
+.button {
+    background-color: #af77dd;
+    border-radius: 50%;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+h1 {
+    color: #6f00ff;
+    font-family: "Rampart One", cursive;
+    text-align: center;
+    letter-spacing: 4px;
+    cursor: default;
+    font-size: 230%;
+    animation-name: colors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors {
+    0% {
+        color: #6f00ff;
+    }
+    50% {
+        color: #0059ff;
+    }
+    100% {
+        color: #6f00ff;
+    }
+}
+.hobbies {
+    font-family: "agency fb", sans-serif;
+    font-variant: small-caps;
+    cursor: default;
+    font-weight: bold;
+    font-size: 150%;
+    color:#ff0000;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+img {
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+button {
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 3s;
+}
