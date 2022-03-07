@@ -22,7 +22,7 @@ li {
 }
 h1 {
     color: #6f00ff;
-    font-family: "Rampart One", cursive;
+    font-family: "Rampart_One";
     text-align: center;
     letter-spacing: 4px;
     cursor: default;
@@ -31,6 +31,9 @@ h1 {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+@Rampart_One {
+	font-family: cursive;
+	src: "https://fonts.googleapis.com";
 @keyframes colors {
     0% {
         color: #6f00ff;
@@ -78,7 +81,7 @@ button {
     border-style: solid;
     border-color: #000000;
     border-radius: 5px;
-    padding: 7px;
+    padding: 4px;
 }
 button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
