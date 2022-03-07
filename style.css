@@ -79,3 +79,7 @@ button {
     background-color: #ffffff;
     color: #35db61;
 }
+.more:hover {
+    background-color: #35db61;
+    color: #ffffff;
+}
