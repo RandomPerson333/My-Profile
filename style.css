@@ -74,4 +74,5 @@ button {
     cursor: pointer;
     animation-name: fade;
     animation-duration: 3s;
+    background-color: #35db61;
 }
